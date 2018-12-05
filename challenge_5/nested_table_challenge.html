@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Challenge 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <h1>Tables and Instructions</h1>
+        <!-- Table one, Original starts -->
+        <p>Table One, Original</p>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3</td>
+                    <!-- Paste Nested1 below -->
+                    <td>Nested 1</td>
+                <!-- Nested1 paste Ends Here -->
+                </tr>
+            </tbody>
+        </table>
+        <!-- End of Table One,Original ends -->
+
+        <!-- Table Two, Nested 1 starts -->
+        <p>Table Two,Nested1</p> 
+        <table border="1px">
+            <thead>
+                <tr>
+                    <!-- Paste Nested2 Here -->
+                    <td>Nested2</td>
+                    <!-- Nested2 Ends Here -->
+                    <td>6</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Table Two, Nested1 ends -->
+
+        <!-- Table Three, Nested 2 starts -->
+        <p>Table Three, Nested2</p>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Table Three, Nested 2 ends -->
+
+    <h1>Nested table</h1>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td>3</td>
+                    <!-- Paste Nested1 below in between the <td></td> -->
+                    <td><table border="1px">
+            <thead>
+                <tr>
+                    <!-- Paste Nested2 below in between the <td></td> -->
+                    <td><table border="1px">
+            <thead>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table></td>
+            <!-- Nested2 Ends Here -->
+            <td>6</td>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table></td>
+            <!-- Nested1 Ends Here -->
+                    </tr>
+                </tbody>
+            </table>
+
+    <h1>Manipulation Mode</h1>
+
+        <table border="1px">
+            <thead>
+                <td>1</td>
+                <td colspan="3"> 2 &nbsp;</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"> 3 &nbsp;</td>
+                    <td >4</td>
+                    <td>5</td>
+                    <td rowspan="2">6</td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td colspan="2">9</td>
+                    <td>10</td>
+                </tr>                                
+
+</body>
+</html>

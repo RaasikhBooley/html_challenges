@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Challenge 6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <center><h1>Registration Form</h1></center>
+        <!-- Start of form -->
+        <form>
+            <!-- align the form to the center -->
+            <table align="center">
+                <tbody>
+                    <tr> 
+                        <td>
+                            User id:
+                        </td> 
+                        <td>
+                            <!-- Text box for user id, min 5, max 12, required -->
+                            <input type="text" name="User id" required minlength="5" maxlength="12">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+                        </td> 
+                        <td>
+                            <!-- Text box for password, min 7, max 12, required -->
+                            <input type="text" required minlength="7" maxlength="12">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Name:
+                        </td> 
+                        <td>
+                            <!-- Text box for name, required -->
+                            <input type="text" required placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Address:
+                        </td>
+                        <td>
+                            <!-- Text box for address, optional -->
+                            <input type="text" placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Country:
+                        </td> 
+                        <td>
+                            <!-- Country drop down menu to choose from, required -->
+                            <select name="Country" id="" required>
+                                <option value="Africa">Africa</option> 
+                                <option value="USA">America</option>
+                                <option value="UK">China</option>
+                                <option value="UK">England</option>
+                                <option value="UK">Japan</option> 
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            ZIP Code:
+                        </td> 
+                        <td>
+                            <!-- Zip code up to four number, required -->
+                            <input type="text" required pattern="[0-9]" maxlength="4">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:
+                        </td> 
+                        <td>
+                            <!-- Text box for email, required -->
+                            <input type="text" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Sex:
+                        </td> 
+                        <td>
+                            <!-- Radio button for gender, required -->
+                            <input type="radio" required>Male 
+                            <input type="radio" required>Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Language:
+                        </td> 
+                        <td>
+                            <!-- Check box for language, required -->
+                            <input type="checkbox">English<input type="checkbox" required>Not English
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            About:
+                        </td> 
+                        <td>
+                            <!-- Text area for the about box, optional -->
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="submit">
+                                <!-- Submit button -->
+                                <input type="Submit" name="" id="">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form> 
+        <!-- End of form -->
+</body>
+</html>
